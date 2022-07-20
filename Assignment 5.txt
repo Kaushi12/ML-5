@@ -1,0 +1,55 @@
+1) Data preprocessing is a process of preparing the raw data and making it suitable for a machine learning model. It is the first and crucial step while creating a machine learning model. When creating a machine learning project, it is not always a case that we come across the clean and formatted data.
+
+2) Quantitative data is numbers-based, countable, or measurable. Qualitative data is interpretation-based, descriptive, and relating to language. Quantitative data tells us how many, how much, or how often in calculations. Qualitative data can help us to understand why, how, or what happened behind certain behaviors.
+
+3) i) Understanding Which Processes Need Automation.
+ii) Lack of Quality Data.
+iii) Inadequate Infrastructure.
+iv) Implementation.
+v) Lack of Skilled Resources.
+
+7) Replacing With Arbitrary Value
+Replacing With Mean
+Replacing With Mode
+Replacing With Median
+Replacing with Previous Value – Forward Fill
+Replacing with Next Value – Backward Fill
+Interpolation
+Imputing Missing Values For Categorical Features
+Impute the Most Frequent Value
+Impute the Value “missing”, which treats it as a Separate Category
+Imputation of Missing Values using sci-kit learn library
+Univariate Approach
+Multivariate Approach
+Nearest Neighbors Imputations (KNNImputer)
+
+8) Data preprocessing is a data mining technique which is used to transform the raw data in a useful and efficient format. 
+Steps Involved in Data Preprocessing: 
+
+1. Data Cleaning: 
+The data can have many irrelevant and missing parts. To handle this part, data cleaning is done. It involves handling of missing data, noisy data etc. 
+ 
+
+(a). Missing Data: 
+This situation arises when some data is missing in the data. It can be handled in various ways. 
+Some of them are: 
+Ignore the tuples: 
+This approach is suitable only when the dataset we have is quite large and multiple values are missing within a tuple. 
+ 
+Fill the Missing values: 
+There are various ways to do this task. You can choose to fill the missing values manually, by attribute mean or the most probable value. 
+ 
+(b). Noisy Data: 
+Noisy data is a meaningless data that can’t be interpreted by machines.It can be generated due to faulty data collection, data entry errors etc. It can be handled in following ways : 
+Binning Method: 
+This method works on sorted data in order to smooth it. The whole data is divided into segments of equal size and then various methods are performed to complete the task. Each segmented is handled separately. One can replace all data in a segment by its mean or boundary values can be used to complete the task. 
+ 
+Regression: 
+Here data can be made smooth by fitting it to a regression function.The regression used may be linear (having one independent variable) or multiple (having multiple independent variables). 
+ 
+Clustering: 
+This approach groups the similar data in a cluster. The outliers may be undetected or it will fall outside the clusters. 
+
+10 i) Interval data is a type of data which is measured along a scale, in which each point is placed at an equal distance (interval) from one another. Interval data is one of the two types of discrete data. An example of interval data is the data collected on a thermometer—its gradation or markings are equidistant.
+ii) The median is considered the second quartile (Q2). The interquartile range is the difference between upper and lower quartiles. The semi-interquartile range is half the interquartile range. When the data set is small, it is simple to identify the values of quartiles.
+iii) Cross tabulation is a method to quantitatively analyze the relationship between multiple variables.Also known as contingency tables or cross tabs, cross tabulation groups variables to understand the correlation between different variables. It also shows how correlations change from one variable grouping to another. It is usually used in statistical analysis to find patterns, trends, and probabilities within raw data.
